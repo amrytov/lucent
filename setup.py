@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="torch-lucent",
+    name="torch-lucent-amr",
     packages=find_packages(exclude=[]),
     version=version,
     description=(
@@ -17,9 +17,9 @@ setup(
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="The Lucent Authors",
-    author_email="limsweekiat@gmail.com",
-    url="https://github.com/greentfrapp/lucent",
+    author="Forked and messed up by AMR",
+    author_email="amrytov@gmail.com",
+    url="https://github.com/amrytov/lucent",
     license="Apache License 2.0",
     keywords=[
         "pytorch",
@@ -33,7 +33,7 @@ setup(
     install_requires=[
         "torch>=2.1.0",
         "torchvision",
-        "kornia<=0.4.1",
+        "kornia",
         "tqdm",
         "numpy",
         "ipython",
@@ -54,7 +54,6 @@ setup(
         "Natural Language :: English",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
         "Topic :: Scientific/Engineering",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Scientific/Engineering :: Mathematics",
