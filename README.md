@@ -1,3 +1,10 @@
+* The original greentfrapp/lucent seems to be abandoned.
+* Unfortunately, it no longer works with default libraries in Colab, in particular, the problem seems to be in the torch version.
+* The goal of this fork is to try to fix that, if possible.
+* I might also want to simplify the lib to make it as dumb and easy to understand (and to explain to students)as possible, with the idea that it may be used in education.
+
+* NOTE THAT THE CODE MIGHT BE BROKEN, DON'T USE IT (YET)!
+
 ![](https://github.com/greentfrapp/lucent/raw/master/images/lucent_header.jpg)
 
 # Lucent
