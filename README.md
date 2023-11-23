@@ -1,5 +1,5 @@
 * The original greentfrapp/lucent seems to be abandoned.
-* Unfortunately, it no longer works with default libraries in Colab, in particular, the problem seems to be in the torch version.
+* Unfortunately, it no longer works with default libraries in Colab, in particular, the problem seems to be in the updated versions of torch, kornia.
 * The goal of this fork is to try to fix that, if possible.
 * I might also want to simplify the lib to make it as dumb and easy to understand (and to explain to students)as possible, with the idea that it may be used in education.
 
